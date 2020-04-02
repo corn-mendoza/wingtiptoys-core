@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WingtipToys.Models.Product>
+
+@{
+    ViewData["Title"] = "Catalog";
+}
+
+<h1>Catalog: @ViewData["Category"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnitPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <img src="~/images/catalog/@item.ImagePath" height="40" width="40"/>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ProductID">@item.ProductName</a>
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.UnitPrice)
+            </td>
+            <td>
+                <a asp-action="AddToCart" asp-route-id="@item.ProductID">Add to Cart</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

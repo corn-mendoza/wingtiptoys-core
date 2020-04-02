@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Steeltoe.CircuitBreaker.HystrixCore" Version="2.4.2" />
+    <PackageReference Include="Steeltoe.Common.Http" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingtipModels\WingtipModels.csproj" />
+  </ItemGroup>
+
+</Project>

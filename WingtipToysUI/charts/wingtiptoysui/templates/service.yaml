@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "wingtiptoysui.fullname" . }}
+  labels:
+    app: {{ template "wingtiptoysui.name" . }}
+    chart: {{ template "wingtiptoysui.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "wingtiptoysui.name" . }}
+    release: {{ .Release.Name }}

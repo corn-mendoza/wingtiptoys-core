@@ -1,0 +1,9 @@
+applications:
+- name: ProductService
+  buildpacks:
+  - dotnet_core_buildpack
+  disk_quota: 1G
+  instances: 1
+  memory: 512M
+  services:
+  - myDiscoveryService

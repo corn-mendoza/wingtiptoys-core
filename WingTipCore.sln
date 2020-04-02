@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToysUI", "WingtipToysUI\WingtipToysUI.csproj", "{0F1C14D7-B7B9-4FD3-B9BA-760F9DC553D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToys.CatalogService", "WingtipToys.CatalogService\WingtipToys.CatalogService.csproj", "{5ACA534F-B7AC-4873-9C96-B86D82836548}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipModels", "WingtipModels\WingtipModels.csproj", "{7F9C6CA3-2EE0-4C8B-AD21-5DD9BD5554EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToys.OrderService", "WingtipToys.OrderService\WingtipToys.OrderService.csproj", "{32E579EC-7103-4E7A-ABBC-F68575FDF1B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToys.ProductService", "WingtipToys.ProductService\WingtipToys.ProductService.csproj", "{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToysProductServiceClient", "WingtipToysProductServiceClient\WingtipToysProductServiceClient.csproj", "{CC557337-063F-42E1-B317-EB753B6EC738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F1C14D7-B7B9-4FD3-B9BA-760F9DC553D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1C14D7-B7B9-4FD3-B9BA-760F9DC553D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1C14D7-B7B9-4FD3-B9BA-760F9DC553D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1C14D7-B7B9-4FD3-B9BA-760F9DC553D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACA534F-B7AC-4873-9C96-B86D82836548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACA534F-B7AC-4873-9C96-B86D82836548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACA534F-B7AC-4873-9C96-B86D82836548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACA534F-B7AC-4873-9C96-B86D82836548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9C6CA3-2EE0-4C8B-AD21-5DD9BD5554EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9C6CA3-2EE0-4C8B-AD21-5DD9BD5554EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9C6CA3-2EE0-4C8B-AD21-5DD9BD5554EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9C6CA3-2EE0-4C8B-AD21-5DD9BD5554EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E579EC-7103-4E7A-ABBC-F68575FDF1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E579EC-7103-4E7A-ABBC-F68575FDF1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E579EC-7103-4E7A-ABBC-F68575FDF1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E579EC-7103-4E7A-ABBC-F68575FDF1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC557337-063F-42E1-B317-EB753B6EC738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC557337-063F-42E1-B317-EB753B6EC738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC557337-063F-42E1-B317-EB753B6EC738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC557337-063F-42E1-B317-EB753B6EC738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A813DFD7-90EA-46E2-8B09-B1F4DCA9064A}
+	EndGlobalSection
+EndGlobal
