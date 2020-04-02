@@ -14,7 +14,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build $(Build.SourceDirectory)/WingtipToys.ProductService/WingtipToys.ProductService.csproj --configuration $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+- script: dotnet build --configuration $(buildConfiguration) -o $(Build.ArtifactStagingDirectory) WingtipToys.ProductService/WingtipToys.ProductService.csproj 
   displayName: 'dotnet build $(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1
