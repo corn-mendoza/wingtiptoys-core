@@ -28,6 +28,7 @@ stages:
         buildContext: '$(Build.Repository.LocalPath)'
         tags: |
           $(tag)
+        repository: 'cjmendoza/productservice' 
     - task: Docker@2
       inputs:
         containerRegistry: 'Docker-Registry'
