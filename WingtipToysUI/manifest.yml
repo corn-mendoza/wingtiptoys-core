@@ -1,0 +1,11 @@
+applications:
+- name: wingtipcore
+  buildpacks:
+  - dotnet_core_buildpack
+  disk_quota: 512M
+  instances: 2
+  memory: 512M
+  services:
+  - myHystrixService
+  - myDiscoveryService
+  - myConfigServer
