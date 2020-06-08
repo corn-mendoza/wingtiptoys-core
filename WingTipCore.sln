@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToys.OrderService", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToys.ProductService", "WingtipToys.ProductService\WingtipToys.ProductService.csproj", "{7BE4C9FE-B4ED-4A65-9016-099FCB45502A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WingtipToysProductServiceClient", "WingtipToysProductServiceClient\WingtipToysProductServiceClient.csproj", "{CC557337-063F-42E1-B317-EB753B6EC738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToysProductServiceClient", "WingtipToysProductServiceClient\WingtipToysProductServiceClient.csproj", "{CC557337-063F-42E1-B317-EB753B6EC738}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WingtipToysOrderProcessingService", "WingtipToysOrderProcessing\WingtipToysOrderProcessingService.csproj", "{690EFA75-BD93-4EB8-9DB6-5DDF7608804E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CC557337-063F-42E1-B317-EB753B6EC738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC557337-063F-42E1-B317-EB753B6EC738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC557337-063F-42E1-B317-EB753B6EC738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690EFA75-BD93-4EB8-9DB6-5DDF7608804E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690EFA75-BD93-4EB8-9DB6-5DDF7608804E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690EFA75-BD93-4EB8-9DB6-5DDF7608804E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690EFA75-BD93-4EB8-9DB6-5DDF7608804E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
